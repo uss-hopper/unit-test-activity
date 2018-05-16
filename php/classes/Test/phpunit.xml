@@ -1,0 +1,7 @@
+<phpunit>
+	<testsuites>
+		<testsuite name="GreatQuote">
+			<file>QuoteTest.php</file>
+		</testsuite>
+	</testsuites>
+</phpunit>

@@ -1,1 +1,2 @@
-# snap-unit-test
+# angular2-example
+Angular 2 Example Site
