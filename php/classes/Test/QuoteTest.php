@@ -29,7 +29,7 @@ class QuoteTest extends QuoteTestSetup {
 	 * protect Constant for the actual quote that is being used to test update the quote class
 	 * @var string $VALID_GREAT_QUOTE1
 	 */
-	protected $VALID_GREAT_QUOTE1 = "Just tried watching Saturday Night Live - unwatchable! Sad";
+	protected $VALID_GREAT_QUOTE1 = "Four score and seven years ago, our forefathers brought on this continent a new nation.";
 
 	/**
 	 * protected constant for the person who is responsible for the quote
@@ -180,7 +180,7 @@ class QuoteTest extends QuoteTestSetup {
 	 * try and grab the quote by an author that does not exist
 	 */
 	public function testInvalidGetByAuthor() {
-		$quote = Quote::getQuoteByAuthor($this->getPDO(), "birdie Bernie");
+		$quote = Quote::getQuoteByAuthor($this->getPDO(), "Jean Luc Picard");
 		$this->assertEmpty($quote);
 	}
 
